@@ -1,0 +1,15 @@
+# build output
+/taxlot
+/dist/
+
+# data: never commit real tradebooks or databases
+*.xlsx
+*.csv
+*.db
+*.sqlite
+.env
+private/
+
+# fabricated samples are allowed
+!testdata/
+!testdata/**
